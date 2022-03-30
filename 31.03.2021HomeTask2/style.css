@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(23, 164, 211);
+}
+
+.container-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.table-header{
+    background-color: rgb(70, 70, 121);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+th:nth-child(2n-1){
+    background-color: mediumturquoise;
+}
+
+.table{
+    border-collapse: collapse;
+    text-align: center;
+    background-color: white;
+    border-color: lightgray;
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    width: 850px;
+    height: 300px;
+}
+tr:nth-child(2n){
+    background-color: lightgray;
+}
